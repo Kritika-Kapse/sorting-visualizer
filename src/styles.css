@@ -1,0 +1,81 @@
+/* General Page Styling */
+body { 
+    font-family: 'Poppins', sans-serif;
+    text-align: center; 
+    background: #f5f5f5; 
+    color: #333; 
+    margin: 0;
+    padding: 20px;
+}
+
+/* Heading */
+h1 {
+    font-size: 28px;
+    color: #222;
+    margin-bottom: 10px;
+}
+
+/* Controls */
+.controls {
+    margin: 20px;
+}
+
+/* Buttons */
+button { 
+    padding: 10px 15px; 
+    margin: 5px; 
+    background: dodgerblue; 
+    color: white; 
+    border: none; 
+    cursor: pointer; 
+    font-size: 16px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: deepskyblue;
+}
+
+button:disabled {
+    background: gray;
+    cursor: not-allowed;
+}
+
+/* Input Field */
+input {
+    width: 100px; 
+    margin-left: 10px; 
+    padding: 5px;
+    font-size: 16px;
+}
+
+/* Sorting Bars */
+.bar-container { 
+    display: flex; 
+    justify-content: center; 
+    align-items: flex-end; 
+    height: 300px; 
+    margin-top: 20px; 
+}
+
+.bar { 
+    width: 30px; 
+    margin: 3px; 
+    background: coral; 
+    position: relative; 
+    transition: height 0.3s ease-in-out, background 0.3s ease-in-out; 
+    border-radius: 5px;
+    border: 2px solid #444;
+}
+
+/* Bar Numbers */
+.bar span { 
+    position: absolute; 
+    top: -25px; 
+    width: 100%; 
+    text-align: center; 
+    font-size: 12px; 
+    font-weight: bold;
+    color: black;
+}
